@@ -7,7 +7,7 @@ const Description = () => {
           Paulo
         </p>
         <p>
-          Nowadays I am studying some new technologies and fields, so check my
+          Nowadays I am studying some new technologies and fields, so check my{" "}
           <b>projects section</b> for some cool stuff!
         </p>
         <p>

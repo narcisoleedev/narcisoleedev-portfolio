@@ -1,3 +1,8 @@
+import py from "../assets/img/py.png"
+import sql from "../assets/img/sql.png"
+import js from  "../assets/img/js.png"
+import cs from "../assets/img/cs.webp"
+
 const ProgrammingSkills = () => {
   return (
     <>
@@ -22,7 +27,7 @@ const ProgrammingSkills = () => {
               <div className="align-imgs">
                 <img
                   className="pl-img"
-                  src="../img/py.png"
+                  src={py}
                   width="70px"
                   height="76.70px"
                 />
@@ -42,7 +47,7 @@ const ProgrammingSkills = () => {
               <div className="align-imgs">
                 <img
                   className="pl-img"
-                  src="../img/sql.png"
+                  src={sql}
                   width="70px"
                   height="76.70px"
                 />
@@ -61,7 +66,7 @@ const ProgrammingSkills = () => {
               <div className="align-imgs">
                 <img
                   className="pl-img"
-                  src="../img/js.png"
+                  src={js}
                   width="70px"
                   height="76.70px"
                 />
@@ -90,7 +95,7 @@ const ProgrammingSkills = () => {
               <div className="align-imgs">
                 <img
                   className="pl-img"
-                  src="../img/cs.webp"
+                  src={cs}
                   width="70px"
                   height="76.70px"
                 />
@@ -100,7 +105,7 @@ const ProgrammingSkills = () => {
           </ul>
         </div>
         <p>
-          Some other languages I've used just a few times: Mips Assembly, Java
+          Some other languages Ive used just a few times: Mips Assembly, Java
         </p>
       </div>
     </>

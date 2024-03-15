@@ -37,6 +37,10 @@ header {
 .tabs-items:hover {
   text-decoration: underline;
 }
+.tabs-items a{
+  color: darkslategray;
+  text-decoration: none;
+}
 main {
   margin: 0 auto;
   width: 40%;

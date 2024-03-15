@@ -1,14 +1,8 @@
-import React, { useState } from "react";
-import "../styles.css";
+import { Link } from "react-router-dom";
 
 const HomeHeader = () => {
   const tabsItems = ["projects", "resume"];
   
-  const [isUnderlined, setIsUnderlined] = useState(false);
-
-  function handleIsUnderlined(){
-    setIsUnderlined(true);
-  }
   return (
     <>
       <div id="nome">
@@ -18,8 +12,8 @@ const HomeHeader = () => {
         <ul id="tabs-list">
           {tabsItems.map((row) => {
             return (
-              <li key={row.indexOf} className={isUnderlined? "tabs-items-selected" : "tabs-items"} onClick={handleIsUnderlined}> 
-                {row}
+              <li key={row.indexOf} className="tabs-items"> 
+                <Link to={`${row}`} >{row}</Link>
               </li>
             );
           })}
