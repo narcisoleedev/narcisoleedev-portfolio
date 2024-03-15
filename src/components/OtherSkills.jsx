@@ -1,3 +1,8 @@
+import web from "../assets/img/web.png";
+import hadoop from "../assets/img/hadoop.webp";
+import linux from "../assets/img/linux.png";
+import tools from "../assets/img/tools.png";
+
 const OtherSkills = () => {
   return (
     <>
@@ -22,7 +27,7 @@ const OtherSkills = () => {
             <div className="align-imgs">
               <img
                 className="pl-img"
-                src="../../assets/img/web.png"
+                src={web}
                 width="70px"
                 height="76.70px"
               />
@@ -42,7 +47,7 @@ const OtherSkills = () => {
             <div className="align-imgs">
               <img
                 className="pl-img"
-                src="../../assets/img/hadoop.webp"
+                src={hadoop}
                 width="70px"
                 height="76.70px"
               />
@@ -67,7 +72,7 @@ const OtherSkills = () => {
             <div className="align-imgs">
               <img
                 className="pl-img"
-                src="../../assets/img/linux.png"
+                src={linux}
                 width="70px"
                 height="76.70px"
               />
@@ -89,7 +94,7 @@ const OtherSkills = () => {
             <div className="align-imgs">
               <img
                 className="pl-img"
-                src="../../assets/img/tools.png"
+                src={tools}
                 width="70px"
                 height="76.70px"
               />

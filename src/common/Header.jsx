@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import resumeFile from "../assets/Resume (ENG).pdf"
+
 const HomeHeader = () => {
   const tabsItems = ["projects", "resume"];
 
@@ -12,13 +14,19 @@ const HomeHeader = () => {
       </div>
       <nav id="tabs">
         <ul id="tabs-list">
-          {tabsItems.map((row) => {
+          {/* {tabsItems.map((row) => {
             return (
               <li key={row.indexOf} className="tabs-items">
-                <Link to={`${row}`}>{row}</Link>
+                <Link to={`/${row}`}>{row}</Link>
               </li>
             );
-          })}
+          })}*/}
+          <li className="tabs-items">
+                <Link to={`/projects`}>projects</Link>
+          </li>
+          <li className="tabs-items">
+                <a href={resumeFile} download={"Resume ENG.pdf"}>resume</a>
+          </li>
         </ul>
       </nav>
     </>

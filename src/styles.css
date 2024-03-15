@@ -58,6 +58,7 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   border-bottom: 2px solid gray;
+  color: darkslategrey;
 }
 #description {
   margin: 10px 10px;
