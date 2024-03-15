@@ -3,8 +3,8 @@ const Description = () => {
     <>
       <div id="aboutme">
         <p>
-          I am currently an Information Systems student at University of São
-          Paulo
+          I am currently an Information Systems student at <b>University of São
+          Paulo</b>
         </p>
         <p>
           Nowadays I am studying some new technologies and fields, so check my{" "}

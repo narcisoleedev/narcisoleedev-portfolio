@@ -61,6 +61,7 @@ const ProgrammingSkills = () => {
                 <ul>
                   <li>NodeJS</li>
                   <li>Express</li>
+                  <li>React</li>
                 </ul>
               </li>
               <div className="align-imgs">
