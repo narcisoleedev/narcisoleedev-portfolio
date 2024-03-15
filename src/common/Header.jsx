@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import resumeFile from "../assets/Resume (ENG).pdf"
 
 const HomeHeader = () => {
-  const tabsItems = ["projects", "resume"];
+  //const tabsItems = ["projects", "resume"];
 
   return (
     <>

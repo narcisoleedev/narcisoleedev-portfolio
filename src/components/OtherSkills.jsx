@@ -1,4 +1,4 @@
-import web from "../assets/img/web.png";
+//import web from "../assets/img/web.png";
 import hadoop from "../assets/img/hadoop.webp";
 import linux from "../assets/img/linux.png";
 import tools from "../assets/img/tools.png";
@@ -15,7 +15,7 @@ const OtherSkills = () => {
               <b>Git</b>{" "}
             </li>
           </div>
-
+          {/*}
           <div className="no-list-div">
             <li>
               <b>Web</b>
@@ -24,6 +24,7 @@ const OtherSkills = () => {
                 <li>CSS</li>
               </ul>
             </li>
+      
             <div className="align-imgs">
               <img
                 className="pl-img"
@@ -34,6 +35,7 @@ const OtherSkills = () => {
             </div>
             <div className="space-imgs"></div>
           </div>
+          */}
 
           <div className="no-list-div">
             <li>

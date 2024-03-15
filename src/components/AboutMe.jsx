@@ -3,8 +3,7 @@ const AboutMe = () => {
     <>
       <div id="description">
         <p>
-          information systems student, ongoing software engineer and machine
-          learning enthusiast.
+          information systems student, <b>software engineer</b> and <b>data analyst</b>
         </p>
       </div>
     </>
