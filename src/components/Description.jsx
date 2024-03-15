@@ -1,7 +1,7 @@
 const Description = () => {
-    return(
-        <>
-        <div id="aboutme">
+  return (
+    <>
+      <div id="aboutme">
         <p>
           I am currently an Information Systems student at University of São
           Paulo
@@ -17,7 +17,7 @@ const Description = () => {
         </p>
       </div>
     </>
-    )
-}
+  );
+};
 
 export default Description;

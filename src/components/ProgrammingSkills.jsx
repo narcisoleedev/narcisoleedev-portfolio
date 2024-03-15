@@ -1,7 +1,7 @@
-import py from "../assets/img/py.png"
-import sql from "../assets/img/sql.png"
-import js from  "../assets/img/js.png"
-import cs from "../assets/img/cs.webp"
+import py from "../assets/img/py.png";
+import sql from "../assets/img/sql.png";
+import js from "../assets/img/js.png";
+import cs from "../assets/img/cs.webp";
 
 const ProgrammingSkills = () => {
   return (

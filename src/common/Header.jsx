@@ -2,18 +2,20 @@ import { Link } from "react-router-dom";
 
 const HomeHeader = () => {
   const tabsItems = ["projects", "resume"];
-  
+
   return (
     <>
       <div id="nome">
-        <p style={{ fontWeight: "bold" }}>Guilherme Lee</p>
+        <Link to={"/"}>
+          <p style={{ fontWeight: "bold" }}>Guilherme Lee</p>
+        </Link>
       </div>
       <nav id="tabs">
         <ul id="tabs-list">
           {tabsItems.map((row) => {
             return (
-              <li key={row.indexOf} className="tabs-items"> 
-                <Link to={`${row}`} >{row}</Link>
+              <li key={row.indexOf} className="tabs-items">
+                <Link to={`${row}`}>{row}</Link>
               </li>
             );
           })}

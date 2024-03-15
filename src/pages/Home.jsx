@@ -12,17 +12,17 @@ const Home = () => {
   return (
     <>
       <header>
-        <Header/>
+        <Header />
       </header>
       <main>
-        <AboutMe/>
-        <Description/>
-        <ProgrammingSkills/>
-        <OtherSkills/>
-        <Hobbies/>
+        <AboutMe />
+        <Description />
+        <ProgrammingSkills />
+        <OtherSkills />
+        <Hobbies />
       </main>
       <footer>
-        <HomeFooter/>
+        <HomeFooter />
       </footer>
     </>
   );

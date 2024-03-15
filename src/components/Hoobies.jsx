@@ -1,7 +1,7 @@
 const Hoobies = () => {
-    return(
-        <>
-        <div id="hobbiesandinterests">
+  return (
+    <>
+      <div id="hobbiesandinterests">
         <p>
           On my freetime, I usually do stuff related to practicing acoustic
           guitar, losing in chess, watching anime or trash horror movies and
@@ -9,7 +9,7 @@ const Hoobies = () => {
         </p>
       </div>
     </>
-    )
-}
+  );
+};
 
 export default Hoobies;

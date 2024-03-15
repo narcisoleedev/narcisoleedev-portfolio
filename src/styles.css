@@ -1,6 +1,7 @@
 body {
     align-items: center;
     background-color: white;
+    font-family: "Open Sans";
 }
 header {
   margin-top: 100px;
@@ -16,6 +17,14 @@ header {
 }
 #nome {
   width: 40%;
+}
+#nome a{
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease-in-out; 
+}
+#nome a:hover{
+  text-decoration: underline;
 }
 #nome p {
   font-size: 20px;
@@ -40,6 +49,7 @@ header {
 .tabs-items a{
   color: darkslategray;
   text-decoration: none;
+  transition: color 0.3s ease-in-out; 
 }
 main {
   margin: 0 auto;

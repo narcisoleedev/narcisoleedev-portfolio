@@ -7,7 +7,7 @@ const AboutMe = () => {
           learning enthusiast.
         </p>
       </div>
-      </>
+    </>
   );
 };
 
