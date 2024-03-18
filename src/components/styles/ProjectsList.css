@@ -1,0 +1,72 @@
+.projectslist{
+    
+}
+.projectslistelement{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.projectscardbox{
+    height: 150px;
+    width: 600px;
+    margin: auto auto;
+    border: 2px solid lightgrey;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.projectscardbox:hover{
+    background-color:whitesmoke;
+}
+.pc-header{
+    margin-top: 10px;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pc-title{
+    width: 60%;
+    margin-left: 5px;
+}
+.pc-title h1{
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    color: orangered;
+}
+.pc-title a{
+    text-decoration: none;
+}
+.pc-title a:hover{
+    text-decoration: underline solid orangered;
+}
+.pc-technologies{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pc-technologies p{
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+}
+.pc-circle{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.pc-description{
+    margin: 0 5px;
+}
+.pc-description{
+    font-size: small;
+}
