@@ -1,5 +1,6 @@
 {
-  "name": "narcisolee",
+  "homepage": "https://narcisoleedev.github.io/narcisoleedev",
+  "name": "narcisoleedev",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,9 @@
     "build": "vite build",
     "format": "prettier --write \"./**/*.{js,jsx}\"",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",

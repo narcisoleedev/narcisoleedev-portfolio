@@ -1,9 +1,9 @@
-body {
+body{
     align-items: center;
     background-color: white;
     font-family: "Open Sans";
 }
-header {
+header{
   margin-top: 100px;
   margin-bottom: 0;
   margin-left: auto;
@@ -15,7 +15,7 @@ header {
   justify-content: space-between;
   border-bottom: 2px solid black;
 }
-#nome {
+#nome{
   width: 40%;
 }
 #nome a{
@@ -26,24 +26,24 @@ header {
 #nome a:hover{
   text-decoration: underline;
 }
-#nome p {
+#nome p{
   font-size: 20px;
   text-align: left;
 }
-#tabs {
+#tabs{
   width: 40%;
 }
-#tabs-list {
+#tabs-list{
   display: flex;
   justify-content: space-between;
 }
-.tabs-items {
+.tabs-items{
   flex: 1;
   list-style: none;
   color: darkslategray;
   text-decoration: none;
 }
-.tabs-items:hover {
+.tabs-items:hover{
   text-decoration: underline;
 }
 .tabs-items a{
@@ -60,16 +60,16 @@ main {
   border-bottom: 2px solid gray;
   color: darkslategrey;
 }
-#description {
+#description{
   margin: 10px 10px;
   width: 30%;
 }
-#description p {
+#description p{
   color: darkslategrey;
   font-weight: lighter;
   font-size: 15px;
 }
-#aboutme {
+#aboutme{
   border-bottom: 1px solid lightgray;
 }
 #programmingskills{
@@ -118,19 +118,17 @@ main {
 }
 #hobbiesandinterests{
 }
-#contact{
-}
-footer {
+footer{
   margin: 0 auto;
   width: 40%;
 }
-.contact-div {
+.contact-div{
   height: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-div p {
+.contact-div p{
   text-align: center;
   font-size: 15px;
   color: rgb(10, 10, 10);
