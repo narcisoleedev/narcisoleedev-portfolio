@@ -1,5 +1,5 @@
 {
-  "homepage": "https://narcisoleedev.github.io/narcisoleedev",
+  "homepage": "https://github.com/narcisoleedev/narcisoleedev",
   "name": "narcisoleedev",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist r https://github.com/narcisoleedev/narcisoleedev.git"
   },
   "dependencies": {
     "react": "^18.2.0",
